@@ -5,13 +5,27 @@
 header{
     background-color: #484848;
     height: 300px;
-    width: 100%;
-    
+    width: 100%;    
 }
-
+.h1-style{
+    font-size: 3rem !important;
+    text-shadow: white 0.04em 0.04em 0.04em;
+}
 img{
     height:100%;
     border-radius: 50%;
+}
+h3{
+    font-weight: bold;
+    font-size: 2.1rem;
+    color: #484848;
+    text-shadow: gray 0.08em 0.08em 0.08em;
+}
+h5{
+    font-size: 1.5rem;
+}
+li{
+    font-size: 1.2rem;
 }
 
 .container-secao {
@@ -21,6 +35,12 @@ img{
     color: #ffffff;
     text-align: center;
     margin: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.font-aboutme{
+    font-size: 1.5rem;
 }
 
 .height-100 {
@@ -33,4 +53,7 @@ img{
 
 .text-white {
     color: white
+}
+.margin-div{
+    margin-bottom: 2rem;
 }
